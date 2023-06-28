@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'Inter';
+  src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: .5em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: .3s;
+}
+a:hover {
+  color: rgb(240, 96, 29);
+}
+
+.container {
+  padding: 10vh 10vw;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+nav ul {
+  display: flex;
+  gap: 1em;
+}
+
+ul li {
+  list-style: none;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  margin-bottom: 2em;
+  gap: 2em;
+}
+
+.image {
+  background: url('assets/images/image-web-3-desktop.jpg') no-repeat;
+  margin-bottom: 2em;
+  height: 300px;
+}
+
+section {
+  display: flex;
+}
+
+section h1 {
+  font-size: 36px;
+}
+
+button {
+  border: 1px solid transparent;
+  padding: 1em 2em;
+  background-color: rgb(240, 96, 29);
+  color: white;
+}
+
+aside {
+  background-color: rgb(27, 9, 32);
+  color: white;
+  padding: 1.5em 1em;
+}
+
+aside h2 {
+  color: rgb(240, 96, 29);
+}
+
+aside article{
+  border-bottom: 1px solid #ccc;
+  padding: 1.5em 0;
+}
+aside article:nth-last-child(1) {
+  border: none;
+}
+
+aside article p {
+  color: gray;
+}
+
+footer {
+  display: flex;
+  gap: 1em;
+}
+
+footer article {
+  display: flex;
+}
+
+footer img {
+  width: 120px;
+  margin-right: 1em;
+}
