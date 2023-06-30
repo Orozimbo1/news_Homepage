@@ -40,6 +40,7 @@ a:hover {
 }
 
 .blackout {
+  display: none;
   position: fixed;
   top: 0;
   width: 100vw;
@@ -83,13 +84,13 @@ header {
   margin-bottom: 2.5em;
 }
 
+header svg {
+  display: none;
+}
+
 nav {
   width: 40%;
   padding: 0 1em;
-}
-
-.show-hidden {
-  display: none;
 }
 
 nav ul {
@@ -200,6 +201,10 @@ footer h3 {
   color: hsl(240, 100%, 5%);
 }
 
+.show {
+  display: block;
+}
+
 @media screen and (max-width: 375px){
   .container {
     padding: 5vh 5vw;
@@ -217,7 +222,7 @@ footer h3 {
     display: none;
   }
 
-  .show-hidden {
+  header svg {
     display: block;
   }
 
