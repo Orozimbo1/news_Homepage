@@ -5,6 +5,9 @@
 * Clean Code
 * JS
 
+**Font-Family** : *Inter*
+**Font-Size** Parágrafo : *15px*
+
 # Mobile 375px
 ![Mobile Menu](./design/mobile-menu.jpg)
 ![Mobile Design](./design/mobile-design.jpg)
